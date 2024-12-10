@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="header">
@@ -65,40 +67,40 @@
                <p class="contacts__text">для записи на пробный урок,звоните по номеру телефона или пишите нам на почту</p>
                <button class="contacts__call">позвонить</button>
             </div>
-            <form action="#" method="POST">
-                <div>
+            <form class="worksheet" action="#" method="POST">
+                <div class="worksheet__group">
                     <label>ваше имя</label><br>
-                    <input type="text">
+                    <input class="worksheet__input" type="text">
                 </div>
-                <div>
-                    <label>ваша фамилия</label><br>
-                    <input type="text">
+                <div class="worksheet__group">
+                    <label class="worksheet__label">ваша фамилия</label><br>
+                    <input class="worksheet__input" type="text">
                 </div>
-               <div>
-                    <label>почта</label><br>
-                    <input type="email">
+               <div class="worksheet__group">
+                    <label class="worksheet__label">почта</label><br>
+                    <input class="worksheet__input" type="email">
                </div>
-                <div>
-                    <label>сообщение</label><br>
-                    <textarea></textarea> 
+                <divc class="worksheet__group">
+                    <label class="worksheet__label">сообщение</label><br>
+                    <textarea class="worksheet__textarea"></textarea> 
                 </div>
-                <button>отправить</button>
+                <button class="worksheet__send">отправить</button>
             </form>
         </section>
     </main>
     <footer class="footer">
         <ul class="footer__list">
             <li class="footer__item">
-                <p>о нас</p>
-                <p>наши уроки</p>
-                <p>инструменты обучения</p>
+                <p class="footer__text">о нас</p>
+                <p class="footer__text">наши уроки</p>
+                <p class="footer__text">инструменты обучения</p>
             </li>
             <li class="footer__item">
-                <p>info@mail.ru</p>
-                <p>123-456-789</p>
+                <p class="footer__text">info@mail.ru</p>
+                <p class="footer__text">123-456-789</p>
             </li>
             <li class="footer__item">
-                <p>@copyright 2024 by online lessons</p>
+                <p class="footer__text">@copyright 2024 by online lessons</p>
             </li>
             
         </ul>
