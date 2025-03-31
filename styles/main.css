@@ -1,0 +1,34 @@
+.sign-up{
+    background-image: url('../images/main_start.jpg');
+padding: 30px;
+min-height: 500px;
+background-size: cover;
+}
+.sign-up__button{
+    color: aliceblue;
+    background-color: rgb(240, 127, 127);
+    padding: 15px;
+    width: 150px;
+}
+.information__title-blue{
+    color: blue;
+}
+.information__title-white{
+    color: white;
+}
+.information__title-red{
+    color: red;
+}
+.information{
+    display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: space-between;
+padding: 20px;
+}
+.information__title{
+    width: 100%;
+}
+.information__conteiner{
+    width: 400px;
+}
