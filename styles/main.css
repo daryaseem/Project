@@ -32,3 +32,65 @@ padding: 20px;
 .information__conteiner{
     width: 400px;
 }
+.menu__link{
+    /*тут ваш код кнопки*/
+    transition: background-color 0.3s,
+    color 0.3s;
+   }
+   .menu__link:hover {
+    background-color: #868cda;
+    color: #ffffff;
+   }
+   .menu__link:active {
+    background-color: #8f6eeb;
+    color: #ffffff;
+   }
+   .sign-up__button{
+    /*тут ваш код кнопки*/
+    transition: background-color 0.3s,
+    color 0.3s;
+   }
+   .sign-up__button:hover {
+    background-color: #cc454c;
+    color: #ffffff;
+   }
+   .sign-up__buttonink:active {
+    background-color: #cf5656;
+    color: #ffffff;
+   }
+   .contacts__call{
+    /*тут ваш код кнопки*/
+    transition: background-color 0.3s,
+    color 0.3s;
+   }
+   .contacts__callutton:hover {
+    background-color: #89ebc2;
+    color: #ffffff;
+   }
+   .contacts__call:active {
+    background-color: #7bc09a;
+    color: #ffffff;
+   }
+   .worksheet__send{
+    /*тут ваш код кнопки*/
+    transition: background-color 0.3s,
+    color 0.3s;
+   }
+   .worksheet__send:hover {
+    background-color: #63c9a2;
+    color: #ffffff;
+   }
+   .worksheet__send:active {
+    background-color: #91e7bf;
+    color: #ffffff;
+   }
+   .worksheet__group {
+    /*тут ваш код поля */
+    transition: outline 0.3s;
+   }
+   .worksheet__group:focus {
+    outline: 2px solid #218838;
+   }
+   
+
+   

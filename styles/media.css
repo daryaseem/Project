@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    .container {
+     max-width: 100%;
+    }
+    .information{
+        justify-content: center;
+    }
+.information__title{
+    text-align: center;
+}
+
+}
+    
